@@ -1,0 +1,163 @@
+.wicon-background{
+    z-index:50;
+    position:absolute;
+    top:400px;
+    left:6px;
+    color:rgba(255,255,255,0.16);
+    font-size:100px;
+}
+
+.wicon{
+    z-index:100;
+    position:absolute;
+    top:400px;
+    left:6px;
+    font-size:100px;
+    color:rgba(255,255,255,0.9);
+
+}
+.Weather-Background{
+    z-index:50;
+    position:absolute;
+    top:120px;
+    left:6px;
+    color:rgba(0,0,0,0.16);
+    font-size:70px;
+}
+
+.Weather{
+    z-index:100;
+    position:absolute;
+    top:120px;
+    left:6px;
+    font-size:70px;
+}
+.city {
+    z-index:100;
+    position:absolute;
+    top:330px;
+    left:6px;
+    font-size:27px;
+    color:rgba(255,255,255,0.9);
+}
+.city-background {
+    z-index:50;
+    position:absolute;
+    color:rgba(255,255,255,0.16);
+    top:330px;
+    left:6px;
+    font-size:27px;
+
+}
+.temp{
+    z-index:100;
+    position:absolute;
+    top:400px;
+    left:160px;
+    font-size:40px;
+    color:rgba(255,255,255,0.9);
+}
+.temp-background{
+    z-index:50;
+    position:absolute;
+    top:400px;
+    left:160px;
+    color:rgba(255,255,255,0.16);
+    font-size:40px;
+}
+.description{
+    z-index:100;
+    position:absolute;
+    top:450px;
+    left:180px;
+    font-size:15px;
+    color:rgba(255,255,255,0.9);
+}
+.description-background{
+    z-index:50;
+    position:absolute;
+    top:450px;
+    left:180px;
+    color:rgba(255,255,255,0.16);
+    font-size:15px;
+}
+.humidity{
+    z-index:100;
+    position:absolute;
+    top:470px;
+    left:188px;
+    font-size:15px;
+    color:rgba(255,255,255,0.9);
+}
+.humidity-background{
+    z-index:50;
+    position:absolute;
+    top:470px;
+    left:188px;
+    color:rgba(255,255,255,0.16);
+    font-size:15px;
+}
+.wind{
+    z-index:100;
+    position:absolute;
+    top:490px;
+    left:100px;
+    font-size:15px;
+    color:rgba(255,255,255,0.9);
+}
+.wind-background{
+    z-index:50;
+    position:absolute;
+    top:490px;
+    left:100px;
+    color:rgba(255,255,255,0.16);
+    font-size:15px;
+}
+
+.clock-year-background{
+    z-index:50;
+    position:absolute;
+    top:600px;
+    left:50px;
+    color:rgba(255,255,255,0.16);
+    font-size:27px;
+}
+
+.clock-year-front{
+    z-index:100;
+    position:absolute;
+    top:600px;
+    left:50px;
+    font-size:27px;
+    color:rgba(255,255,255,0.9);
+}
+.clock-time-background{
+    z-index:50;
+    position:absolute;
+    top:640px;
+    left:175px;
+    color:rgba(255,255,255,0.16);
+    font-size:40px;
+}
+
+.clock-time-front{
+    z-index:100;
+    position:absolute;
+    top:640px;
+    left:175px;
+    font-size:40px;
+    color:rgba(255,255,255,0.9);
+
+}
+.col1{
+
+    position:absolute;
+    top:200px;
+    left:100px;
+
+}
+.col2{
+    position:absolute;
+    top:0px;
+    left:800px;
+}

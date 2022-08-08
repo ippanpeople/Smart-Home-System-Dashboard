@@ -1,0 +1,125 @@
+
+#Controllers1{
+    transform:translateY(-2em);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+#Controllers2{
+    transform:translateY(-2em);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+#Controllers1.op{
+    transform:translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+#Controllers2.op{
+    transform:translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+#control_panel{
+    position: relative;
+    transform:translateX(0em);
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+#control_panel.cl{
+    transform:translateX(-2em);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+#set_menu{
+    position: absolute;
+    transform:translateX(2em);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+#set_menu.op{
+    transform:translateX(0em);
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+#set_a{
+    position: absolute;
+    transform:translateX(2em);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+#set_a.op{
+    transform:translateX(0em);
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+
+/* 矢印 */
+.back{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 10px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+  }
+
+/* ログイン画面のCSS */
+#main_window.login{
+    width: 30em;
+    transition: 1s;
+}
+
+#login_window{
+    position: absolute;
+    height: 90vh;
+    width: 23em;
+}
+
+.cld{
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+
+/*Emailとpasswordボックス*/
+.text_bar input{
+    width: 20em;
+    height: 2em;
+    border: none;
+    background-color: rgba(27, 24, 16, 0.3);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: 16px 48%;
+}
+
+.login_button{
+    background-color: rgba(108, 211, 87, 0.645);
+    border: none;
+    padding: 8px 26px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.login_button:hover{
+    background-color: rgb(95, 207, 101);
+    transition: .5s;
+}

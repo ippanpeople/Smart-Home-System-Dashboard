@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "D7MBI";
+    src: url("../fonts-DSEG_v046/DSEG7-Modern/DSEG7Modern-BoldItalic.woff") format('woff');
+}
+@font-face {
+    font-family: "D7MI";
+    src: url("../fonts-DSEG_v046/DSEG7-Modern/DSEG7Modern-Italic.woff") format('woff');
+}
+@font-face {
+  font-family: "DSEG14";
+  src: url("../fonts-DSEG_v046/DSEG14-Modern/DSEG14Modern-Italic.woff") format('woff');
+}
+@font-face {
+  font-family: "DSEG14";
+  src: url("../fonts-DSEG_v046/DSEG14-Modern/DSEG14Modern-Italic.woff") format('woff');
+}
+@font-face {
+  font-family: "D14MB";
+  src: url("../fonts-DSEG_v046/DSEG14-Modern/DSEG14Modern-Bold.woff") format('woff');
+}
+/*DSEG Weather*/
+@font-face {
+    font-family: "DWEATHER";
+    src: url("../fonts-DSEG_v046/DSEGWeather/DSEGWeather.woff") format('woff');
+}
+
+@font-face {
+  font-family: "D14LI";
+  src: url("../fonts-DSEG_v046/DSEG14-Classic-MINI/DSEG14ClassicMini-Light.woff") format('woff');
+}
+@font-face {
+  font-family: "D7SEGG";
+  src: url("../fonts-DSEG_v046/DSEG7-7SEGG-CHAN/DSEG7SEGGCHANMINI-Regular.woff") format('woff');
+}
+
+.D14LI {
+  font-family: "D14LI";
+}
+
+.D7MI {
+  font-family: "D7MI";
+}
+  
+.D7MBI {
+  font-family: "D7MBI";
+}
+  
+.DSEG14{
+  font-family: "DSEG14";
+}
+.D14MI {
+  font-family: "D14MI";
+}
+.D14MB {
+  font-family: "D14MB";
+}
+  
+.DWEATHER {
+  font-family: "DWEATHER";
+}
+.D7SEGG {
+  font-family: "D7SEGG";
+}
